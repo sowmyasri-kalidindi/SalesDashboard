@@ -151,9 +151,9 @@ Now the dashboard will display:
 
 # 📷 Dashboard Preview
 
-<img width="488" height="200" alt="Screenshot table" src="https://github.com/user-attachments/assets/98f82a7f-1e88-4fa0-bf66-2197ca0f2422" />
-<img width="488" height="200" alt="Screenshot Pie" src="https://github.com/user-attachments/assets/d8aed60e-83c7-4189-94e7-b59da92756c3" />
-<img width="488" height="200" alt="Screenshot bar" src="https://github.com/user-attachments/assets/d705bdd2-78d0-44cf-b274-f74631cb3046" />
+<img width="488" height="300" alt="Screenshot table" src="https://github.com/user-attachments/assets/98f82a7f-1e88-4fa0-bf66-2197ca0f2422" /><br>
+<img width="400" height="300" alt="Screenshot Pie" src="https://github.com/user-attachments/assets/d8aed60e-83c7-4189-94e7-b59da92756c3" /><br>
+<img width="300" height="200" alt="Screenshot bar" src="https://github.com/user-attachments/assets/d705bdd2-78d0-44cf-b274-f74631cb3046" /><br>
 
 
 
@@ -181,6 +181,7 @@ Now the dashboard will display:
 This project demonstrates the ability to work with SQL databases and Power BI to create professional business dashboards. It showcases real-world data analytics, reporting, and visualization skills useful for Data Analyst and Software roles.
 
 ---
+
 
 
 
