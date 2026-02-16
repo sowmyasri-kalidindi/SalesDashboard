@@ -1,88 +1,179 @@
-📊 Sales Dashboard using Power BI and SQL
-📌 Project Overview
-The Sales Dashboard is an interactive business intelligence project developed using SQL and Power BI to analyze sales performance. It provides insights into revenue, sales trends, customer behavior, and product performance to support data-driven decision-making.
+# 📊 SalesDashboard
 
-🎯 Objectives
-To analyze overall sales performance
+An interactive Sales Dashboard built using SQL Server and Power BI to analyze and visualize sales performance, profit, customer insights, and regional trends. This project transforms raw sales data into meaningful business insights using data analysis and visualization techniques.
 
-To identify top-performing products and regions
+---
 
-To track KPIs like total sales, profit, and quantity
+# 🚀 Project Overview
 
-To visualize trends for better business insights
+The SalesDashboard helps to analyze and monitor:
 
-🛠️ Technologies Used
-SQL Server (SSMS)
+* Overall Sales Performance
+* Profit Analysis
+* Region-wise Sales Distribution
+* Product Performance
+* Customer Purchase Details
+* Sales Trends Over Time
 
-Power BI
+This dashboard enables better business decision-making through interactive visualizations.
+
+---
+
+# 🛠️ Tools and Technologies Used
+
+* SQL Server Management Studio (SSMS) – Database creation
+* SQL – Data querying and analysis
+* Power BI Desktop – Dashboard creation and visualization
+
+---
+
+# 🗄️ Database Structure
+
+Database Name: **SalesDashboard**
+
+Table Name: **Sales**
+
+Columns:
+
+* OrderID (INT)
+* OrderDate (DATE)
+* CustomerName (VARCHAR)
+* ProductName (VARCHAR)
+* Region (VARCHAR)
+* SalesAmount (FLOAT)
+* Profit (FLOAT)
+
+---
+
+# 📈 Dashboard Features
+
+* ✅ Total Sales KPI
+* ✅ Total Profit KPI
+* ✅ Sales by Region Chart
+* ✅ Sales by Product Chart
+* ✅ Sales Trend Line Chart
+* ✅ Customer Sales Table
+* ✅ Interactive Filters (Slicers)
+
+---
+
+# ⚙️ How to Run the Project
+
+## Step 1: Setup Database in SQL Server
+
+1. Open SQL Server Management Studio (SSMS)
+
+2. Connect to:
+
+```
+Server name: localhost
+Authentication: Windows Authentication
+```
+
+3. Click **New Query**
+
+4. Open and run:
+
+```
+SalesDashboard.sql
+```
+
+5. Click **Execute**
+
+This will create the database and Sales table.
+
+---
+
+## Step 2: Open Power BI Dashboard
+
+1. Open Power BI Desktop
+
+2. Click:
+
+```
+File → Open → SalesDashboard.pbix
+```
+
+---
+
+## Step 3: Connect Power BI to SQL Server
+
+If connection is not working:
+
+Click:
+
+```
+Home → Transform Data → Data Source Settings
+```
+
+Select SQL Server → Edit
+
+Enter:
+
+```
+Server: localhost
+Database: SalesDashboard
+```
+
+Click:
+
+```
+OK → Refresh
+```
+
+---
+
+## Step 4: View Dashboard
+
+Now the dashboard will display:
+
+* Total Sales
+* Total Profit
+* Sales by Region
+* Product Performance
+* Sales Trends
+
+---
+
+# 🔄 How This Project Was Performed
+
+* Created Sales database using SQL Server
+* Created Sales table using SQL queries
+* Inserted sample sales data
+* Connected SQL Server to Power BI
+* Loaded data into Power BI
+* Created KPIs using Card visuals
+* Created charts using Bar, Pie, and Line charts
+* Added filters using Slicers
+* Designed final interactive dashboard
+
+---
+
+# 💡 Key Insights
+
+* Identified top-performing regions
+* Analyzed most profitable products
+* Tracked sales growth over time
+* Monitored overall business performance
+
+---
+
+# 🎯 Skills Demonstrated
+
+* SQL Development
+* Data Analysis
+* Data Visualization
+* Power BI Dashboard Development
+* Business Intelligence
+
+---
+
+# 📌 Conclusion
+
+This project demonstrates the ability to work with SQL databases and Power BI to create professional business dashboards. It showcases real-world data analytics, reporting, and visualization skills useful for Data Analyst and Software roles.
+
+---
 
 
-⚙️ How It Was Performed
-Step 1: Data Collection
-Used sales dataset stored in SQL Server database
 
-Created database and tables using SQL queries
-
-Step 2: Data Cleaning and Preparation
-Checked for missing and duplicate values
-
-Organized data into proper format using SQL
-
-Step 3: Data Analysis using SQL
-Wrote SQL queries to find:
-
-Total Sales
-
-Profit
-
-Sales by Region
-
-Top Products
-
-Step 4: Connecting SQL to Power BI
-Connected SQL Server database to Power BI
-
-Imported sales data into Power BI
-
-Step 5: Dashboard Creation
-Created interactive visuals:
-
-Bar Charts
-
-Pie Charts
-
-Line Charts
-
-KPI Cards
-
-Filters and Slicers
-
-Step 6: Insights Generation
-Identified sales trends
-
-Found top-performing products
-
-Analyzed regional performance
-
-📈 Key Features
-Interactive Dashboard
-
-Real-time Data Visualization
-
-KPI Tracking
-
-Sales Trend Analysis
-
-Business Insights
-
-📷 Dashboard Preview
-<img width="250" height="300" alt="Screenshot bar" src="https://github.com/user-attachments/assets/cf955911-7c36-4e93-b0b4-2b2864fa1561" />
-<img width="250" height="300" alt="Screenshot Pie" src="https://github.com/user-attachments/assets/6de42726-05db-414b-a8ca-dad18bb6e143" />
-<img width="250" height="300" alt="Screenshot table" src="https://github.com/user-attachments/assets/da9e8e58-83ae-4e81-bac1-8cfb28790b80" />
-
-
-
-
-🚀 Project Outcome
-This dashboard helps businesses monitor sales performance, identify trends, and make better strategic decisions.
 
